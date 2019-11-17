@@ -42,6 +42,8 @@ class ViewController: UIViewController {
             }
             
             
+        } else if segue.identifier == "goToScroll" {
+            
         }
     }
 //
@@ -65,5 +67,14 @@ class ViewController: UIViewController {
         self.view_conuter_label.text = "\(clickCount ?? 0)"
         print("Counter clicked! \(String(describing: clickCount))")
     }
+    
+    
+    @IBAction func gotToScrollViewController(_ sender: Any) {
+    }
+    
+    
+    @IBAction func gotToTableViewController(_ sender: Any) {
+    }
+    
 }
 

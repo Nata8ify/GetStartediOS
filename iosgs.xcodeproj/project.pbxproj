@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B28527238188120036FEDB /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B28526238188120036FEDB /* ScrollViewController.swift */; };
 		84CC2294237C717100EBDCEA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CC2293237C717100EBDCEA /* SecondViewController.swift */; };
 		84DBE125237DACC800F21635 /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DBE124237DACC800F21635 /* CountViewController.swift */; };
 		84E994DB2377DEF200B50788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E994DA2377DEF200B50788 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84B28526238188120036FEDB /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		84CC2293237C717100EBDCEA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		84DBE124237DACC800F21635 /* CountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewController.swift; sourceTree = "<group>"; };
 		84E994D72377DEF200B50788 /* iosgs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosgs.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				84E994E32377DEF400B50788 /* Assets.xcassets */,
 				84E994E52377DEF400B50788 /* LaunchScreen.storyboard */,
 				84E994E82377DEF400B50788 /* Info.plist */,
+				84B28526238188120036FEDB /* ScrollViewController.swift */,
 			);
 			path = iosgs;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CC2294237C717100EBDCEA /* SecondViewController.swift in Sources */,
+				84B28527238188120036FEDB /* ScrollViewController.swift in Sources */,
 				84E994DF2377DEF200B50788 /* ViewController.swift in Sources */,
 				84E994DB2377DEF200B50788 /* AppDelegate.swift in Sources */,
 				84E994DD2377DEF200B50788 /* SceneDelegate.swift in Sources */,
