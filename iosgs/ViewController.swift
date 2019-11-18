@@ -76,5 +76,9 @@ class ViewController: UIViewController {
     @IBAction func gotToTableViewController(_ sender: Any) {
     }
     
+    
+    @IBAction func goToTableViewController(_ sender: Any) {
+    }
+    
 }
 

@@ -16,6 +16,8 @@
 		84E994E22377DEF200B50788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E994E02377DEF200B50788 /* Main.storyboard */; };
 		84E994E42377DEF400B50788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E994E32377DEF400B50788 /* Assets.xcassets */; };
 		84E994E72377DEF400B50788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E994E52377DEF400B50788 /* LaunchScreen.storyboard */; };
+		84ED62812382FBD800A62337 /* TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED62802382FBD800A62337 /* TableTableViewController.swift */; };
+		84ED62832382FFDE00A62337 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED62822382FFDE00A62337 /* MealTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		84E994E32377DEF400B50788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E994E62377DEF400B50788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E994E82377DEF400B50788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84ED62802382FBD800A62337 /* TableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTableViewController.swift; sourceTree = "<group>"; };
+		84ED62822382FFDE00A62337 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				84E994DA2377DEF200B50788 /* AppDelegate.swift */,
 				84E994DC2377DEF200B50788 /* SceneDelegate.swift */,
 				84E994DE2377DEF200B50788 /* ViewController.swift */,
+				84ED62822382FFDE00A62337 /* MealTableViewCell.swift */,
 				84CC2293237C717100EBDCEA /* SecondViewController.swift */,
 				84DBE124237DACC800F21635 /* CountViewController.swift */,
 				84E994E02377DEF200B50788 /* Main.storyboard */,
@@ -72,6 +77,7 @@
 				84E994E52377DEF400B50788 /* LaunchScreen.storyboard */,
 				84E994E82377DEF400B50788 /* Info.plist */,
 				84B28526238188120036FEDB /* ScrollViewController.swift */,
+				84ED62802382FBD800A62337 /* TableTableViewController.swift */,
 			);
 			path = iosgs;
 			sourceTree = "<group>";
@@ -151,6 +157,8 @@
 				84B28527238188120036FEDB /* ScrollViewController.swift in Sources */,
 				84E994DF2377DEF200B50788 /* ViewController.swift in Sources */,
 				84E994DB2377DEF200B50788 /* AppDelegate.swift in Sources */,
+				84ED62832382FFDE00A62337 /* MealTableViewCell.swift in Sources */,
+				84ED62812382FBD800A62337 /* TableTableViewController.swift in Sources */,
 				84E994DD2377DEF200B50788 /* SceneDelegate.swift in Sources */,
 				84DBE125237DACC800F21635 /* CountViewController.swift in Sources */,
 			);
